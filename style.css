@@ -1,0 +1,131 @@
+body {
+  background: linear-gradient(to bottom, #ffffff -2%, #cc99ff 100%);
+/*  background-color: rgba(225, 225, 225, 1);*/
+  font-family:'Raleway', sans-serif;;
+  color: rgb(71, 69, 69);
+  font-size: 15px ;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;;
+  line-height: 2em;
+}
+
+h1 {
+  color: rgb(104, 77, 146);
+  font-size: 40px
+}
+
+h2 {
+  font-size: 30px
+}
+
+h3 {
+  color: rgb(104, 77, 146);
+  font-size: 20px
+}
+
+#img_circle {
+  width: 100px;
+  border-radius: 50%;
+  border: 3px solid rgba(104, 77, 146, 0.5);
+}
+
+.img_small {
+  width: 150px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(104, 77, 146);
+  display: block;
+}
+
+a.instagram:hover {
+    background: radial-gradient(33% 100% circle, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+    background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+a.instagram:hover > .fa.fa-hover-show {
+  display: inline-block;
+}
+
+.btn-purple {
+    background-color: rgb(104, 77, 146);
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+}
+
+a.linkedin:hover {
+ color: rgb(58, 160, 224);
+}
+
+a.spotify:hover {
+ color: rgb(1, 255, 51);
+}
+
+a.git_hover:hover {
+   background-color: rgb(198, 20, 20);
+}
+
+.large_icon {
+  font-size: 30px;
+}
+
+.no_style_list {
+  list-style-type: none;
+  padding: 0;
+  line-height: 2em;
+  display: block;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.card {
+  height: auto;
+  width: 500px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 2%;
+  margin-bottom: 10px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  padding: 5px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
