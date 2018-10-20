@@ -1,6 +1,5 @@
 body {
-  background: linear-gradient(to bottom, #ffffff -2%, #cc99ff 100%);
-/*  background-color: rgba(225, 225, 225, 1);*/
+  /*background: linear-gradient(to bottom, #ffffff -2%, #cc99ff 100%);*/
   font-family:'Raleway', sans-serif;;
   color: rgb(71, 69, 69);
   font-size: 15px ;
@@ -13,16 +12,42 @@ h1, h2, h3 {
 
 h1 {
   color: rgb(104, 77, 146);
-  font-size: 40px
+  font-size: 40px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 h2 {
-  font-size: 30px
+  font-size: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 h3 {
   color: rgb(104, 77, 146);
   font-size: 20px
+}
+
+
+.content {
+  /*margin: 0 auto;*/
+  margin-left: 120px;
+  width: 90%;
+}
+
+.container-fluid {
+  /*width: 90%;*/
+  margin: 30px auto;
+}
+
+.card {
+  width: 500px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 2%;
+  margin-bottom: 10px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  padding: 20px;
 }
 
 #img_circle {
@@ -72,7 +97,7 @@ a.spotify:hover {
 }
 
 a.git_hover:hover {
-   background-color: rgb(198, 20, 20);
+   background-color: rgba(104, 77, 146,0.6);
 }
 
 .large_icon {
@@ -95,37 +120,48 @@ a.git_hover:hover {
   padding-left: 0px;
 }
 
-.container {
-  margin: 0 auto;
-}
-
-.card {
-  height: auto;
-  width: 500px;
-  margin: 0 auto;
-  background-color: white;
-  border-radius: 2%;
-  margin-bottom: 10px;
-  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
-  padding: 5px;
-}
 
 .text-center {
     text-align: center;
 }
 
-@media (max-width: 960px) {
-  .container {
+/*@media (max-width: 960px) {
+  .content {
     width: 700px;
   }
 }
 @media (max-width: 720px) {
-  .container {
+  .content {
     width: 500px;
   }
 }
 @media (max-width: 540px) {
-  .container {
+  .content {
     width: 300px;
   }
+}*/
+#sidebar {
+  position: fixed;
+  width: 120px;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  background-color: #384047;
+  text-align: center;
+}
+
+#sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#sidebar a {
+  text-decoration: none;
+  font-size: 30px;
+  padding: 20px;
+}
+
+#sidebar li {
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
